@@ -17,3 +17,7 @@ $('input').keypress(function (event) {
     $('ul').append('<li><span>x</span> ' + itemText + '</li>');
   }
 })
+
+$('h2 span').click(function () {
+  $('input').fadeToggle();
+})

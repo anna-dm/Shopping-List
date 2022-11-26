@@ -1,5 +1,83 @@
 .done {
-  color: gray;
+  color: rgb(121, 114, 114);
   text-decoration: line-through;
 
+}
+
+#shopping-list {
+  margin: 100px auto;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+#shopping-list:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-image: url('../img/fruit.jpg');
+  font-family: 'Nerko One', cursive;
+}
+
+h2 {
+
+  background-color: green;
+  margin: 0;
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(30, 110, 4, 0.45);
+  ;
+}
+
+li {
+  border-top: 1px solid rgb(4, 68, 4);
+  color: black;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+li:hover span {
+  width: 50px;
+  opacity: 1;
+}
+
+input {
+  font-size: 20px;
+  background-color: rgba(30, 110, 4, 0.45);
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  color: green;
+}
+
+input:focus {
+  background: white;
+  border: 2px solid green;
+  outline: none;
+}
+
+li span {
+  float: right;
+  background: red;
+  height: 50px;
+  width: 0px;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+h2 span {
+  float: right;
 }

@@ -7,17 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping List</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/681c9a53cf.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div id="shopping-list">
-    <h2>Shopping List</h2>
-    <input type="text" name="">
+    <h2>Shopping List<span><i class="fa-solid fa-circle-plus"></i></span></h2>
+    <input type="text" placeholder="Add Item">
     <ul>
-      <li><span>x</span> Milk</li>
-      <li><span>x</span> Meat</li>
-      <li><span>x</span> Bread</li>
+      <li> Milk <span><i class="fa-solid fa-trash"></i></span></li>
+      <li> Meat <span><i class="fa-solid fa-trash"></i></span></li>
+      <li> Bread <span><i class="fa-solid fa-trash"></i></span></li>
     </ul>
   </div>
   <script type="text/javascript" src="js/shopping-list.js"></script>
