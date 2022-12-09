@@ -16,13 +16,13 @@
 }
 
 body {
-  background-image: url('../img/fruit.jpg');
+  background-image: url('../img/shopping.jpg');
   font-family: 'Nerko One', cursive;
 }
 
 h2 {
 
-  background-color: green;
+  background-color: #c0c0c0;
   margin: 0;
   padding: 10px 15px;
   color: rgb(255, 255, 255);
@@ -34,12 +34,12 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: rgba(30, 110, 4, 0.45);
+  background-color: rgba(221, 27, 13, 0.745);
   ;
 }
 
 li {
-  border-top: 1px solid rgb(4, 68, 4);
+  border-top: 1px solid rgb(148, 3, 3);
   color: black;
   height: 50px;
   line-height: 50px;
@@ -54,22 +54,22 @@ li:hover span {
 
 input {
   font-size: 20px;
-  background-color: rgba(30, 110, 4, 0.45);
+  background-color: rgba(186, 39, 39, 0.45);
   width: 100%;
   padding: 15px;
   box-sizing: border-box;
-  color: green;
+  color: red;
 }
 
 input:focus {
   background: white;
-  border: 2px solid green;
+  border: 2px solid red;
   outline: none;
 }
 
 li span {
   float: right;
-  background: red;
+  background: rgb(32, 1, 1);
   height: 50px;
   width: 0px;
   text-align: center;
