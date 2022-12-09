@@ -59,6 +59,7 @@ input {
   padding: 15px;
   box-sizing: border-box;
   color: red;
+  font-family: 'Nerko One', cursive;
 }
 
 input:focus {
